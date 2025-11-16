@@ -1,6 +1,6 @@
 import React from 'react';
-import { productData } from '../data/productData';
-import ProductItem from '../components/ProductItem';
+import { productData } from '../data/productData.jsx';
+import ProductItem from '../components/ProductItem.jsx';
 import './ProductListingPage.css';
 
 const ProductListingPage = () => {

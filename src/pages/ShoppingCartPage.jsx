@@ -7,7 +7,7 @@ import {
   incrementQuantity,
   decrementQuantity,
   removeFromCart,
-} from '../features/cart/cartSlice';
+} from '../features/cart/cartSlice.jsx';
 import { Link } from 'react-router-dom';
 import './ShoppingCartPage.css'; 
 

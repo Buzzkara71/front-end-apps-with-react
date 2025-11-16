@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import LandingPage from './pages/LandingPage';
-import ProductListingPage from './pages/ProductListingPage';
-import ShoppingCartPage from './pages/ShoppingCartPage';
-import Header from './components/Header';
+import LandingPage from './pages/LandingPage.jsx';
+import ProductListingPage from './pages/ProductListingPage.jsx';
+import ShoppingCartPage from './pages/ShoppingCartPage.jsx';
+import Header from './components/Header.jsx';
 import { useLocation } from 'react-router-dom';
 
 function App() {

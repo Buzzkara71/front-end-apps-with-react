@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import { selectTotalCartItems } from '../features/cart/cartSlice'; 
+import { selectTotalCartItems } from '../features/cart/cartSlice.jsx'; 
 import './Header.css'; 
 
 const Header = () => {
