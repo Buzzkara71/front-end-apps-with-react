@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import LandingPage from './pages/LandingPage';
+import ProductListingPage from './pages/ProductListingPage';
+import ShoppingCartPage from './pages/ShoppingCartPage';
+import Header from './components/Header';
+import { useLocation } from 'react-router-dom';
 
 function App() {
+  const location = useLocation();
+
+  const showHeader = location.pathname === '/products' || location.pathname === '/cart';
+  const isLandingPage = location.pathname === '/';
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={isLandingPage ? "App-full" : "App"}>
+
+      {showHeader && <Header />}
+      
+      <Routes>
+        
+        <Route path="/" element={<LandingPage />} />
+        
+       
+        <Route path="/products" element={<ProductListingPage />} />
+        
+        
+        <Route path="/cart" element={<ShoppingCartPage />} />
+      </Routes>
     </div>
   );
 }

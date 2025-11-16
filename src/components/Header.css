@@ -1,0 +1,46 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    border-bottom: 3px solid var(--primary-color);
+    margin-bottom: 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .app-header .logo a {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+  }
+  
+  .app-header nav a {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 1.5rem;
+  }
+  
+  .cart-icon {
+    font-size: 1.5rem; 
+    position: relative;
+    padding: 5px;
+  }
+  
+  .cart-icon span {
+  
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: var(--light-bg);
+    color: var(--secondary-color);
+    border-radius: 50%;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    min-width: 10px;
+    text-align: center;
+  }

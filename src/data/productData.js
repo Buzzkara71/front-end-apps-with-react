@@ -1,0 +1,51 @@
+export const productData = [
+    {
+      id: 1,
+      name: "Snake Plant",
+      price: 25.00,
+      category: "Low Maintenance",
+      image: "images/snakeplant.jpg",
+      description: "A hardy plant that thrives on neglect. Excellent for beginners.",
+    },
+    {
+      id: 2,
+      name: "Monstera Deliciosa",
+      price: 45.00,
+      category: "Tropical",
+      image: "images/monsteradeliciosa.jpg",
+      description: "Known for its iconic split leaves. Loves humidity and bright, indirect light.",
+    },
+    {
+      id: 3,
+      name: "Fiddle Leaf Fig",
+      price: 55.00,
+      category: "Tropical",
+      image: "images/fiddleleaffig.jpg",
+      description: "A stylish, popular plant that makes a bold statement. Can be finicky.",
+    },
+    {
+      id: 4,
+      name: "Zamioculcas Zamiifolia",
+      price: 22.00,
+      category: "Low Maintenance",
+      image: "images/zamioculcaszamiifolia.jpg",
+      description: "Virtually indestructible. Tolerates low light and infrequent watering.",
+    },
+    {
+      id: 5,
+      name: "Pothos",
+      price: 18.00,
+      category: "Vining",
+      image: "images/pothos.jpg",
+      description: "A fast-growing vining plant that's perfect for hanging baskets.",
+    },
+    {
+      id: 6,
+      name: "String of Pearls",
+      price: 20.00,
+      category: "Vining",
+      image: "images/stringofpearls.jpg",
+      description: "A unique succulent with cascading, pearl-like leaves. Needs bright light.",
+    },
+
+  ];
